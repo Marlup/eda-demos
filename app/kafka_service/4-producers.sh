@@ -17,4 +17,4 @@ echo '{
     "order_id": "12345",
     "validation_status": "Validated"  
 }' | kafka-console-producer.sh --bootstrap-server localhost:9092 \
-    --topic orders-new
+    --topic orders-validated
